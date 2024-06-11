@@ -41,7 +41,7 @@ class CharactersDetailsScreen extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  height: MediaQuery.of(context).size.height * 0.54,
+                  height: MediaQuery.of(context).size.height * 0.5,
                 ),
               ],
             ),
