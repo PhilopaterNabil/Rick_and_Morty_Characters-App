@@ -28,7 +28,7 @@ class CharactersDetailsScreen extends StatelessWidget {
                       buildDivider(315),
                       characterInfo('Species : ', character.species),
                       buildDivider(250),
-                      characterInfo('gender : ', character.gender),
+                      characterInfo('Gender : ', character.gender),
                       buildDivider(280),
                       characterInfo(
                           'Name of origin site : ', character.origin.name),
