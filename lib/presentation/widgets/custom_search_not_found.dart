@@ -21,10 +21,13 @@ class CustomSearchNotFound extends StatelessWidget {
             ),
             const Text(
               'No characters found with that name 😕',
+              textAlign: TextAlign.center,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
               style: TextStyle(
                 color: MyColors.myWhite,
                 fontWeight: FontWeight.bold,
-                fontSize: 19,
+                fontSize: 18,
               ),
             ),
           ],
