@@ -17,9 +17,11 @@ class CharacterListWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Container(
-        color: MyColors.myGrey,
+    return Container(
+      color: MyColors.myGrey,
+      height: MediaQuery.sizeOf(context).height,
+      width: MediaQuery.sizeOf(context).width,
+      child: SingleChildScrollView(
         child: Column(
           children: [
             CharacterGridViewWidget(
